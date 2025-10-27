@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, cyan, navy);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 12px;
+}
+
+.upload-label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type=file] {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: navy;
+    font-weight: bold;
+    border-radius: 8px;
+}

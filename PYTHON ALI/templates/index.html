@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Actualizar Inventario Aliexpress</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Actualizar Inventario Aliexpress</h1>
+
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <label for="file" class="upload-label">Sube archivo aquí</label>
+            <input type="file" name="file" id="file" required>
+
+            <button type="submit" class="btn">Actualizar inventario</button>
+        </form>
+    </div>
+</body>
+</html>
